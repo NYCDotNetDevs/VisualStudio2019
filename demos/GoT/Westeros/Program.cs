@@ -6,6 +6,7 @@ using Dragonstone;
 using KingsLanding;
 using TheEyrie;
 using Winterfell;
+using Riverrun;
 
 namespace Westeros
 {
@@ -28,6 +29,9 @@ namespace Westeros
             hello.SayHello();
 
             hello = new HelloDragonstone();
+            hello.SayHello();
+
+            hello = new HelloRiverrun();
             hello.SayHello();
 
             hello = new HelloCasterlyRock();
