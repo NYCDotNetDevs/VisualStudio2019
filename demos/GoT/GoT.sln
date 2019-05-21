@@ -21,11 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Winterfell", "Winterfell\Wi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Essos", "Essos\Essos.csproj", "{18CA0B9C-E25A-4302-AFAF-963058236F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Braavos", "Braavos\Braavos.csproj", "{BC8C52BD-1A29-49F7-A278-2E9392217D45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Braavos", "Braavos\Braavos.csproj", "{BC8C52BD-1A29-49F7-A278-2E9392217D45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaesDothrak", "VaesDothrak\VaesDothrak.csproj", "{9D446C5F-37DE-4D6D-96CC-217D4089182C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VaesDothrak", "VaesDothrak\VaesDothrak.csproj", "{9D446C5F-37DE-4D6D-96CC-217D4089182C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meereen", "Meereen\Meereen.csproj", "{6E3407FA-35CA-435E-BCDD-9D539302563E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meereen", "Meereen\Meereen.csproj", "{6E3407FA-35CA-435E-BCDD-9D539302563E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riverrun", "Riverrun\Riverrun.csproj", "{EA806A4B-7CAC-457F-8A29-674DCE2DFBD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{6E3407FA-35CA-435E-BCDD-9D539302563E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E3407FA-35CA-435E-BCDD-9D539302563E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E3407FA-35CA-435E-BCDD-9D539302563E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA806A4B-7CAC-457F-8A29-674DCE2DFBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA806A4B-7CAC-457F-8A29-674DCE2DFBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA806A4B-7CAC-457F-8A29-674DCE2DFBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA806A4B-7CAC-457F-8A29-674DCE2DFBD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

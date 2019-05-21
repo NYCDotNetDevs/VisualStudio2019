@@ -10,6 +10,7 @@
     <ProjectReference Include="..\Dorne\Dorne.csproj" />
     <ProjectReference Include="..\Dragonstone\Dragonstone.csproj" />
     <ProjectReference Include="..\KingsLanding\KingsLanding.csproj" />
+    <ProjectReference Include="..\Riverrun\Riverrun.csproj" />
     <ProjectReference Include="..\TheEyrie\TheEyrie.csproj" />
     <ProjectReference Include="..\Winterfell\Winterfell.csproj" />
   </ItemGroup>
