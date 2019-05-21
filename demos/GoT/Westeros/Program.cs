@@ -6,6 +6,7 @@ using Dragonstone;
 using KingsLanding;
 using TheEyrie;
 using Winterfell;
+using System.Reflection;
 
 namespace Westeros
 {
@@ -15,23 +16,13 @@ namespace Westeros
         {
             IHello hello = null;
 
-            hello = new HelloDorne();
-            hello.SayHello();
+            string[] cities = { "Dorne", "Winterfell", "TheEyrie", "KingsLanding", "Dragonstone", "CasterlyRock" };
 
-            hello = new HelloWinterfell();
-            hello.SayHello();
-
-            hello = new HelloEyrie();
-            hello.SayHello();
-
-            hello = new HelloKingsLanding();
-            hello.SayHello();
-
-            hello = new HelloDragonstone();
-            hello.SayHello();
-
-            hello = new HelloCasterlyRock();
-            hello.SayHello();
+            foreach (string city in cities) {
+                var type = Type.GetType(city + ".Hello" + city + "," + city);
+                hello = (IHello)Activator.CreateInstance(type);
+                hello.SayHello();
+            }
         }
     }
 }

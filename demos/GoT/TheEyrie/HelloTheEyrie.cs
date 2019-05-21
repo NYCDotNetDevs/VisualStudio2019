@@ -3,7 +3,7 @@ using Shared;
 
 namespace TheEyrie
 {
-    public class HelloEyrie : IHello
+    public class HelloTheEyrie : IHello
     {
         public void SayHello()
         {
