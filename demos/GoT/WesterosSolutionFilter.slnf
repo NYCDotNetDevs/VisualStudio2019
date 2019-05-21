@@ -1,0 +1,14 @@
+{
+  "solution": {
+    "path": "GoT.sln",
+    "projects": [
+      "CasterlyRock\\CasterlyRock.csproj",
+      "Dorne\\Dorne.csproj",
+      "Dragonstone\\Dragonstone.csproj",
+      "KingsLanding\\KingsLanding.csproj",
+      "TheEyrie\\TheEyrie.csproj",
+      "Westeros\\Westeros.csproj",
+      "Winterfell\\Winterfell.csproj"
+    ]
+  }
+}

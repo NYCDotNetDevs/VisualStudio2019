@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CasterlyRock\CasterlyRock.csproj" />
+    <ProjectReference Include="..\Dorne\Dorne.csproj" />
+    <ProjectReference Include="..\Dragonstone\Dragonstone.csproj" />
+    <ProjectReference Include="..\KingsLanding\KingsLanding.csproj" />
+    <ProjectReference Include="..\TheEyrie\TheEyrie.csproj" />
+    <ProjectReference Include="..\Winterfell\Winterfell.csproj" />
+  </ItemGroup>
+
+</Project>

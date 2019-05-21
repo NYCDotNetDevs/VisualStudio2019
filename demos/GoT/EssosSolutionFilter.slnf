@@ -1,0 +1,12 @@
+{
+  "solution": {
+    "path": "GoT.sln",
+    "projects": [
+      "Braavos\\Braavos.csproj",
+      "Essos\\Essos.csproj",
+      "Meereen\\Meereen.csproj",
+      "Shared\\Shared.csproj",
+      "VaesDothrak\\VaesDothrak.csproj"
+    ]
+  }
+}
